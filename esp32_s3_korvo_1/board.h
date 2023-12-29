@@ -67,13 +67,6 @@ audio_hal_handle_t audio_board_codec_init(void);
 audio_hal_handle_t audio_board_adc_init(void);
 
 /**
- * @brief Initialize led peripheral and display service
- *
- * @return The audio display service handle
- */
-display_service_handle_t audio_board_blue_led_init(void);
-
-/**
  * @brief Initialize key peripheral
  *
  * @param set The handle of esp_periph_set_handle_t
